@@ -10,11 +10,11 @@ services:
     environment:
       - PUID=502
       - PGID=20
-      - TZ=Europe/London
-      - SERVERURL=61.47.105.20 #optional
-      - SERVERPORT=443 #optional
-      - PEERS=4 #optional
-      - PEERDNS=auto #optional
+      - TZ=Asia/Bangkok
+      - SERVERURL=access.praneat.com #optional
+      - SERVERPORT=51820 #optional
+      - PEERS=dhada,nitirat,jirat,mongkol,suvist,artitaya,dhanaithorn,sukrit,jiratchaya,,supanat,chayakrit,rawisut,surachat,suphanthip,pylonjirat,pylonnontuch,pylonthanon #optional
+      - PEERDNS=8.8.8.8 #optional
       # - INTERNAL_SUBNET=10.13.13.0 #optional
       - ALLOWEDIPS=0.0.0.0/0 #optional
       - PERSISTENTKEEPALIVE_PEERS=all
